@@ -1,0 +1,79 @@
+{
+  "config": {
+    "version": "1.0",
+    "system_name": "EvoWeb"
+  },
+  "users": [
+    {
+      "name": "Administrador",
+      "email": "admin@evoweb.edu.co",
+      "password_hash": "$2a$10$MO.NbEcFbmwFouo4HFS8deBqAR6AqEHhtC9QXnX1n2XyR0RmVe/VW",
+      "role": "admin"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "1989-tim-berners-lee",
+      "title": "1989: Tim Berners-Lee y la propuesta del WWW",
+      "era": "general",
+      "year": 1989,
+      "excerpt": "El origen de la web en el CERN y la semilla de la comunicación global.",
+      "content": "# 1989: El origen del WWW\n\nTim Berners-Lee propuso una red de documentos enlazados que pudiera ser consultada por investigadores alrededor del mundo. Esta idea cambió la forma en que compartimos información y dio inicio a la web como la conocemos.",
+      "status": "published"
+    },
+    {
+      "slug": "1991-primera-pagina-web",
+      "title": "1991: La primera página web",
+      "era": "web10",
+      "year": 1991,
+      "excerpt": "La primera página web pública estableció el estilo estático de los primeros sitios.",
+      "content": "# 1991: Primera página web\n\nEl primer sitio web describe el proyecto WWW, cómo instalar un servidor y cómo crear páginas con enlaces. No había CSS, ni JavaScript, solo HTML y texto plano.",
+      "status": "published"
+    },
+    {
+      "slug": "1996-geocities",
+      "title": "1996: GeoCities y la web del usuario",
+      "era": "web10",
+      "year": 1996,
+      "excerpt": "GeoCities permitió a los usuarios crear sus propios sitios con plantillas predefinidas.",
+      "content": "# 1996: GeoCities\n\nLas páginas personales comenzaron a proliferar gracias a plataformas como GeoCities. La web se llenó de GIFs animados, contadores de visitas y diseños construidos con tablas.",
+      "status": "published"
+    },
+    {
+      "slug": "1999-blogger",
+      "title": "1999: Blogger y el inicio del blogging",
+      "era": "web10",
+      "year": 1999,
+      "excerpt": "Blogger transformó a cualquier persona en autora de contenido público sin saber programar.",
+      "content": "# 1999: Blogger\n\nEl blogging profesionalizó la publicación personal. Por primera vez la web permitió actualizaciones frecuentes, comentarios sencillos y una voz individual en línea.",
+      "status": "published"
+    },
+    {
+      "slug": "2004-conferencia-web2",
+      "title": "2004: La Conferencia Web 2.0",
+      "era": "web20",
+      "year": 2004,
+      "excerpt": "La Web 2.0 definió la web colaborativa, los servicios como plataformas y la participación del usuario.",
+      "content": "# 2004: Web 2.0\n\nLa conferencia Web 2.0 consolidó una nueva era: contenido generado por usuarios, APIs abiertas, redes sociales y aplicaciones web ricas. La web dejó de ser solo un escaparate.",
+      "status": "published"
+    },
+    {
+      "slug": "2005-youtube",
+      "title": "2005: YouTube y la democratización del video",
+      "era": "web20",
+      "year": 2005,
+      "excerpt": "YouTube cambió el contenido digital al poner la creación de video en manos de cualquier usuario.",
+      "content": "# 2005: YouTube\n\nEl video en línea se volvió masivo y accesible. YouTube mostró que la web podía alojar experiencias multimedia creadas por millones de personas.",
+      "status": "published"
+    },
+    {
+      "slug": "2006-twitter",
+      "title": "2006: Twitter y los microposts",
+      "era": "web20",
+      "year": 2006,
+      "excerpt": "Twitter definió la comunicación instantánea y la publicación breve en redes sociales.",
+      "content": "# 2006: Twitter\n\nCon 140 caracteres, Twitter popularizó los microposts y la conversación en tiempo real. La web se volvió aún más social y rápida.",
+      "status": "published"
+    }
+  ]
+}

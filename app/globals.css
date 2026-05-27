@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, #111827 0%, #020617 50%, #000000 100%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ESTRELLAS REALES */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background:
+    radial-gradient(3px 3px at 10% 20%, white, transparent),
+    radial-gradient(4px 4px at 30% 70%, #38BDF8, transparent),
+    radial-gradient(3px 3px at 50% 40%, white, transparent),
+    radial-gradient(5px 5px at 70% 30%, #8B5CF6, transparent),
+    radial-gradient(4px 4px at 90% 60%, white, transparent),
+    radial-gradient(3px 3px at 20% 90%, #38BDF8, transparent),
+    radial-gradient(5px 5px at 80% 85%, #8B5CF6, transparent),
+    radial-gradient(4px 4px at 60% 10%, white, transparent);
+
+  animation: floatingStars 12s linear infinite;
+
+  opacity: 0.9;
+
+  z-index: -1;
+}
+
+/* GLOW AZUL */
+
+body::after {
+  content: "";
+  position: fixed;
+
+  width: 700px;
+  height: 700px;
+
+  background: #2563EB;
+
+  border-radius: 50%;
+
+  filter: blur(180px);
+
+  top: -200px;
+  left: -200px;
+
+  opacity: 0.35;
+
+  z-index: -2;
+}
+
+/* GLOW MORADO EXTRA */
+
+html::before {
+  content: "";
+  position: fixed;
+
+  width: 600px;
+  height: 600px;
+
+  background: #7C3AED;
+
+  border-radius: 50%;
+
+  filter: blur(180px);
+
+  bottom: -200px;
+  right: -200px;
+
+  opacity: 0.25;
+
+  z-index: -2;
+}
+
+/* ANIMACIÓN */
+
+@keyframes floatingStars {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(120px);
+  }
+}
+/* COHETE FLOTANDO */
+
+@keyframes floatRocket {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* SHOOTING STAR PREMIUM */
+
+html::after {
+  content: "";
+
+  position: fixed;
+
+  top: 120px;
+  right: -100px;
+
+  width: 120px;
+  height: 2px;
+
+  background: linear-gradient(
+    to left,
+    rgba(255,255,255,1),
+    rgba(255,255,255,0)
+  );
+
+  border-radius: 999px;
+
+  transform: rotate(-25deg);
+
+  opacity: 0;
+
+  animation: shootingStar 8s linear infinite;
+
+  z-index: -1;
+}
+
+@keyframes shootingStar {
+  0% {
+    transform: translateX(0) translateY(0) rotate(-25deg);
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  15% {
+    transform: translateX(-500px) translateY(250px) rotate(-25deg);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

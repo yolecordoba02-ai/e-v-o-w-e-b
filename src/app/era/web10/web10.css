@@ -1,0 +1,57 @@
+.era-web10-container {
+  background-color: #C0C0C0;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 0;
+}
+
+.era-web10-container a {
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+.era-web10-container a:visited {
+  color: #551A8B;
+}
+
+.era-web10-container a:active {
+  color: #FF0000;
+}
+
+.era-web10-container h1,
+.era-web10-container h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.era-web10-container hr {
+  border: 0;
+  border-top: 2px ridge #999999;
+  margin: 1em 0;
+}
+
+.era-web10-container button {
+  border: 2px outset #DDDDDD;
+  background: #C0C0C0;
+  font-family: inherit;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.era-web10-container button:active {
+  border-style: inset;
+}
+
+.era-web10-container table.layout {
+  width: 640px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.era-web10-container table.layout td {
+  vertical-align: top;
+  padding: 8px;
+}
